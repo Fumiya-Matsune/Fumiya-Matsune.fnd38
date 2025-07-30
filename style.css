@@ -1,0 +1,17 @@
+#Head {
+    font-size: 50px;
+}
+
+#space {
+    width: 300px;
+    height: 800px;
+}
+
+#input {
+    width: 200px;
+    height: 50px;
+}
+
+#skyHorizon {
+    justify-content: space-around;
+}

@@ -13,7 +13,7 @@
 }
 
 #skyHorizon {
-    display: flex;
+    display: flex; /*横並び*/
     background-size: contain;
     flex-wrap: wrap;
     background-color: aqua;
@@ -33,6 +33,6 @@
     background-color: burlywood;
 }
 
-#zoo {
+#horizon {
     display: flex;
 }

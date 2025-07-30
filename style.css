@@ -13,5 +13,26 @@
 }
 
 #skyHorizon {
-    justify-content: space-around;
+    display: flex;
+    background-size: contain;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+#seaHorizon {
+    display: flex;
+    background-size: contain;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+#groundHorizon {
+    display: flex;
+    background-size: contain;
+    flex-wrap: wrap;
+    background-color: burlywood;
+}
+
+#zoo {
+    display: flex;
 }

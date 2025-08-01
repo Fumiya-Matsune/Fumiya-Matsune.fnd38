@@ -1,5 +1,5 @@
 #Head {
-    font-size: 50px;
+    text-align: center;
 }
 
 #space {
@@ -10,6 +10,7 @@
 #input {
     width: 200px;
     height: 50px;
+    display: flex;
 }
 
 #skyHorizon {
@@ -35,4 +36,29 @@
 
 #horizon {
     display: flex;
+}
+
+.sizeCenter {
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+}
+
+a:hover{
+  color : #ff7043;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color:  black;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+#h1Size {
+    font-size: 50px;
+    text-align: center;
 }

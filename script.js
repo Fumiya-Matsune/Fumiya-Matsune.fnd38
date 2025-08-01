@@ -12,6 +12,7 @@ const animaldic = [
   {animal:"イヌ", output:"🐕", live:"sea"},
   {animal:"トリ", output:"🐦", live:"sky"},
   {animal:"ネコ", output:"🐈", live:"ground"},
+  {animal:""}
 ]
 const button = document.getElementById("btn");
 button.addEventListener("click", cheakanimals);

@@ -7,11 +7,6 @@
     height: 800px;
 }
 
-#input {
-    width: 200px;
-    height: 50px;
-    display: flex;
-}
 
 #skyHorizon {
     display: flex; /*横並び*/
@@ -55,7 +50,7 @@ a{
 }
 
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 #h1Size {

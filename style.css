@@ -1,3 +1,5 @@
+
+
 #Head {
     text-align: center;
 }
@@ -7,6 +9,17 @@
     height: 800px;
 }
 
+#input {
+    text-align: center;
+}
+
+#btn {
+    border-radius: 5px;
+}
+
+#btn:hover {
+    color:mediumaquamarine
+}
 
 #skyHorizon {
     display: flex; /*横並び*/
@@ -56,4 +69,21 @@ html {
 #h1Size {
     font-size: 50px;
     text-align: center;
+}
+
+
+/* CodePen styles */
+body {
+	min-height: 150vh;
+	min-width: 150vw;
+	margin: 25vmin;
+}
+
+.z-text {
+	transform: rotateX(-15deg);
+	transition: transform 1s;
+}
+
+.z-layer:not(:first-child) {
+	color: #689238;
 }

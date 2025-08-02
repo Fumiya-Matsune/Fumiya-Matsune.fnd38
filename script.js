@@ -1,5 +1,8 @@
 'use strict'
 // 1行目に記載している 'use strict' は削除しないでください
+
+//https://coliss.com/articles/build-websites/operation/javascript/3d-typography-ztext-js.html
+
 //入力値を受け取る
 // //空の動物
 // const skyAnimal = {1:"ネコ"};
@@ -25,7 +28,8 @@ function cheakanimals() {
     if (input.value.includes(val["animal"])) {
       if(val["live"] === "sky") {
         const paragraph = document.createElement("p");
-        paragraph.innerText = val["output"];
+        paragraph.innerHTML = '<span data-z data-z-event="pointer">' + val["output"] + '</span>';
+        // paragraph.innerText = val["output"];
         h2[0].appendChild(paragraph);
       } else if(val["live"] === "sea") {
         const paragraph = document.createElement("p");

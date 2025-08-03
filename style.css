@@ -46,6 +46,11 @@
     display: flex;
 }
 
+.horizon {
+    display: flex;
+    text-align: center;
+}
+
 .sizeCenter {
     font-size: 50px;
     text-align: center;
@@ -71,19 +76,62 @@ html {
     text-align: center;
 }
 
+.yokonarabe{
+overflow:hidden;
+width:800px;
+margin:0 auto;
+}
+.yokonarabe>div{
+float:left;
+width:50%;
+} 
 
-/* CodePen styles */
-body {
-	min-height: 150vh;
-	min-width: 150vw;
-	margin: 25vmin;
+.middle {
+    font-size: 30px;
 }
 
-.z-text {
-	transform: rotateX(-15deg);
-	transition: transform 1s;
+.middle:hover {
+    background: #ff7043;
 }
 
-.z-layer:not(:first-child) {
-	color: #689238;
+.large {
+    font-size: 50px;
+}
+
+/* .h2sky {
+    text-align: center;
+    max-width: 250px;
+    border: 2px skyblue;
+}
+
+.h2sea {
+    text-align: center;
+    max-width: 250px;
+    border: 2px blue;
+}
+
+.h2ground {
+    text-align: center;
+    max-width: 250px;
+    border: 2px sandybrown;
+} */
+
+.manabi {
+    /* background: rgb(222, 222, 222); */
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 900px;
+    height: 200px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+}
+
+.zoo {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: auto; 
 }

@@ -98,7 +98,6 @@ function cheakanimals() {
         const paragraph = document.createElement("p");
         paragraph.innerHTML = '<span data-z data-z-event="pointer">' + val["output"] + '</span>';
         // paragraph.innerText = val["output"];
-        paragraph.style.fontSize = "50px";
         h2[0].appendChild(paragraph);
         zDraw(paragraph,{depth:"1rem",event:"pointer"});
       } else if(val["live"] === "sea") {
